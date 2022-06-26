@@ -171,15 +171,6 @@ The frontend will be a plentiful resource because it is set up to expect certain
 
 - Returns: Does not return any new data
 
-
-## Testing
-To run the tests, run
-```
-dropdb trivia_test
-createdb trivia_test
-psql trivia_test < trivia.psql
-python test_flaskr.py
-```
 ---
 
 `POST '/questions'`
@@ -253,3 +244,12 @@ The following error code responses are to be expected if request was not properl
 }
 ```
     Internal server error
+
+## Testing
+To run the tests, run
+```
+dropdb trivia_test
+createdb trivia_test
+psql trivia_test < trivia.psql
+python test_flaskr.py
+```
