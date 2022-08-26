@@ -229,7 +229,7 @@ def create_app(test_config=None):
             jsonify(
                 {
                     "success": False,
-                    "error": 404,
+                    "error": 500,
                     "message": "something went wrong, try again",
                 }
             ),
